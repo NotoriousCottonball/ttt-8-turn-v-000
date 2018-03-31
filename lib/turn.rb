@@ -26,4 +26,7 @@ def position_taken?(board, index)
     true 
   end
 end
-#
+# Move Method: Updates value of board at index
+def move(board, index, token = "X")
+  board[index] = token
+end
